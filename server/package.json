@@ -2,11 +2,11 @@
   "name": "m3u8-converter",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/server/app.js",
+  "main": "build/server/app.js",
   "scripts": {
     "build": "tsc",
-    "dev": "concurrently \"tsc -w\" \"nodemon dist/js/app.js\"",
-    "start": "node dist/server/app.js"
+    "dev": "concurrently \"tsc -w\" \"nodemon build/server/app.js\"",
+    "start": "node build/server/app.js"
   },
   "keywords": [],
   "author": "Parthiv Shah",
