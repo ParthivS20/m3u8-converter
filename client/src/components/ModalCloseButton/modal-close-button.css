@@ -1,0 +1,12 @@
+.modal-close {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    font-size: 1.3rem;
+    transition-duration: 200ms;
+    cursor: pointer;
+}
+
+.modal-close:hover {
+    color: gray;
+}

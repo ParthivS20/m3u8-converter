@@ -1,0 +1,40 @@
+.new-converter-modal {
+    width: 700px;
+    height: 850px;
+    background-color: var(--main-color);
+    border: 1px solid rgba(98, 105, 118, 0.51);
+    border-radius: 17px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.input-fields {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    position: relative;
+    gap: 15px;
+}
+
+.submit-btn {
+    height: 42px;
+    width: 100%;
+    background-color: var(--accent-color);
+    border-radius: 12px;
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 15px;
+    transition-duration: 200ms;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+
+.submit-btn:hover {
+    background-color: var(--accent-color-2);
+    color: #dcdcdc;
+}
