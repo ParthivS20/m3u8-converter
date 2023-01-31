@@ -15,7 +15,7 @@ export default function Header({openNewConverterModal, numConverters = 0}: Props
             </button>
 
             <div className={'stats'}>
-                <h1>Ongoing Converters</h1>
+                <h1>Converters</h1>
                 <p>{numConverters}</p>
             </div>
         </div>

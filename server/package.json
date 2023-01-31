@@ -1,5 +1,5 @@
 {
-  "name": "m3u8-converter",
+  "name": "hls-downloader",
   "version": "1.0.0",
   "description": "",
   "main": "build/server/app.js",

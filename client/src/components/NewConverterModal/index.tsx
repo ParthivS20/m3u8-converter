@@ -51,7 +51,7 @@ export default function NewConverterModal({closeNewConverterModal, directory, WS
         if (validate()) {
             setLoading(true);
             WSSClient.send(JSON.stringify({
-                msg: 'new-converter',
+                msg: 'new-converters',
                 converter: {
                     M3U8_FILE: input,
                     SUBTITLE_FILE: subtitle,
@@ -119,7 +119,7 @@ export default function NewConverterModal({closeNewConverterModal, directory, WS
     }
 
     return (
-        <div className={'modal-container'} id={'new-converter-container'} onClick={closeNewConverterModal}>
+        <div className={'modal-container'} id={'new-converters-container'} onClick={closeNewConverterModal}>
             <form className={'new-converter-modal'} onSubmit={onSubmit}>
                 <ModalCloseButton onClick={closeNewConverterModal}/>
                 <h1>Add New Conversion</h1>

@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 button {
@@ -20,8 +22,6 @@ select:not(:disabled) {
 
 body {
     margin: 0;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
     background-color: var(--main-color);
     font-size: 100%;
     padding: 0;

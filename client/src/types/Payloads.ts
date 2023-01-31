@@ -1,5 +1,5 @@
 import {ServerInitiatedMessage} from "./Messages";
-import Converter from "../converter";
+import Converter from "../converters";
 
 export type ConvertersPayload = {
     msg: ServerInitiatedMessage,

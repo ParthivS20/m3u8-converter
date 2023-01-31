@@ -1,6 +1,6 @@
 import ffmpeg from "fluent-ffmpeg"
 
-import {converter} from "../types/converter";
+import {converters} from "../../../client/src/types/Converters";
 import {Media} from "../types/Media";
 
 const mediaDirs = {
@@ -11,10 +11,10 @@ const mediaDirs = {
 }
 
 export default class Converter {
-    private data: converter;
+    private data: converters;
     private id: string;
 
-    constructor(data: converter, id: string) {
+    constructor(data: converters, id: string) {
         this.data = data;
         this.id = id;
         this.data.progress = 0;
