@@ -8,6 +8,7 @@
     align-items: center;
     background: rgb(214, 217, 223);
     background: linear-gradient(180deg, rgba(214, 217, 223, 1) 0%, rgba(244, 246, 250, 1) 100%);
+    margin-bottom: 65px;
 }
 
 .new-converter {
