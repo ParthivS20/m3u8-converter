@@ -17,14 +17,14 @@ export default function Table({converters, deleteConverter}: Props) {
                 <table className={'table'} cellSpacing={0}>
                     <tbody>
                     <tr className={'table-header'}>
-                        <td className={'table-header-item'} style={{width: "2%"}}/>
+                        <th className={'table-header-item'} style={{width: "2%"}}/>
                         <th className={'table-header-item'} style={{width: "14%"}}>ID</th>
                         <th className={'table-header-item'} style={{width: "25%"}}>NAME</th>
                         <th className={'table-header-item'} style={{width: "9%"}}>MEDIA TYPE</th>
                         <th className={'table-header-item'} style={{width: "9%"}}>SUBTITLES</th>
                         <th className={'table-header-item'} style={{width: "21%"}}>PROGRESS</th>
                         <th className={'table-header-item'} style={{width: "10%"}}>STATUS</th>
-                        <td className={'table-header-item'} style={{width: "10%"}}/>
+                        <th className={'table-header-item'} style={{width: "10%"}}/>
                     </tr>
                     {
                         Array.from(converters.values()).map((converter, i) => {
